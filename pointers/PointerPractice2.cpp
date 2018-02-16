@@ -37,7 +37,7 @@ void main() {
 	//cout << array[1] << endl;
 
 	for (int *arrayCopy = array; *arrayCopy != -1; arrayCopy++) {
-		cout << *arrayCopy << endl;
+		cout << *arrayCopy << endl; 
 	}
 
 
