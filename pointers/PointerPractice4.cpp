@@ -15,7 +15,7 @@ void main() {
 	cout << "before... " << value1 << " " << value2 << endl;
 	Swap(&value1, &value2);
 
-	cout << "before... " << value2 << " " << value2 << endl;
+	cout << "before... " << value1 << " " << value2 << endl;
 }
 
 void Swap(int *p1, int *p2) {
